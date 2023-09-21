@@ -1,8 +1,12 @@
 {
-  "defaultSchema": "dataform",
-  "assertionSchema": "dataform_assertions",
+  "defaultSchema": "murli_df_ecom_bz",
   "warehouse": "bigquery",
+  "assertionSchema": "murli_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
-  "defaultLocation": "US"
+  "defaultLocation": "us-central1",
+  "vars": {
+    "silverSchema": "murli_df_ecom_sl",
+    "bronzeSchema": "murli_df_ecom_bz",
+    "goldSchema": "murli_df_ecom_gd"
+  }
 }
-    
