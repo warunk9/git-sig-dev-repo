@@ -1,12 +1,12 @@
 {
-  "defaultSchema": "murli_df_ecom_bz",
+  "defaultSchema": "arjit_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "murli_df_ecom_assert",
+  "assertionSchema": "arjit_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "murli_df_ecom_sl",
-    "bronzeSchema": "murli_df_ecom_bz",
-    "goldSchema": "murli_df_ecom_gd"
+    "silverSchema": "arjit_df_ecom_sl",
+    "bronzeSchema": "arjit_df_ecom_bz",
+    "goldSchema": "arjit_df_ecom_gd"
   }
 }
