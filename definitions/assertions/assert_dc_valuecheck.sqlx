@@ -1,0 +1,9 @@
+config {
+  type: "assertion",
+  tags: ["inventory_items" ,"silver"],
+  name: "assert_inventory_items_rowvalidations"
+
+}
+select 
+id from ${ref("stg_inventory_items")} 
+where product_department not in ("Women", "Men")

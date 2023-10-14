@@ -1,8 +1,13 @@
 {
-  "defaultSchema": "dataform",
-  "assertionSchema": "dataform_assertions",
+  "defaultSchema": "df_ecom_bz",
   "warehouse": "bigquery",
+  "assertionSchema": "df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
-  "defaultLocation": "US"
+  "defaultLocation": "us-central1",
+  "vars": {
+    "silverSchema": "df_ecom_sl",
+    "bronzeSchema": "df_ecom_bz",
+    "goldSchema": "df_ecom_gd"
+  }
 }
     
