@@ -1,0 +1,7 @@
+config {
+ type: "declaration",
+ database: "gcp-sandbox-3-393305", 
+ schema: dataform.projectConfig.vars.bronzeSchema,
+ name: "stg_order_items",
+ description: "order_items details"
+}
