@@ -1,13 +1,13 @@
 {
-  "defaultSchema": "sweta_df_ecom_bz",
+  "defaultSchema": "utkarsh_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "sweta_df_ecom_assert",
+  "assertionSchema": "utkarsh_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "sweta_df_ecom_sl",
-    "bronzeSchema": "sweta_df_ecom_bz",
-    "goldSchema": "sweta_df_ecom_gd",
+    "silverSchema": "utkarsh_df_ecom_sl",
+    "bronzeSchema": "utkarsh_df_ecom_bz",
+    "goldSchema": "utkarsh_df_ecom_gd",
     "myDatabase": "gcp-sandbox-3-393305"
   }
 }
