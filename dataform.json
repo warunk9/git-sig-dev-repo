@@ -7,6 +7,7 @@
   "vars": {
     "silverSchema": "murli_df_ecom_sl",
     "bronzeSchema": "murli_df_ecom_bz",
-    "goldSchema": "murli_df_ecom_gd"
+    "goldSchema": "murli_df_ecom_gd",
+    "myDatabase": "gcp-sandbox-3-393305"
   }
 }
