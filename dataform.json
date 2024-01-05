@@ -1,13 +1,13 @@
 {
-  "defaultSchema": "dipinti_df_ecom_bz",
+  "defaultSchema": "gopal_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "dipinti_df_ecom_assert",
+  "assertionSchema": "gopal_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "dipinti_df_ecom_sl",
-    "bronzeSchema": "dipinti_df_ecom_bz",
-    "goldSchema": "dipinti_df_ecom_gd",
+    "silverSchema": "gopal_df_ecom_sl",
+    "bronzeSchema": "gopal_df_ecom_bz",
+    "goldSchema": "gopal_df_ecom_gd",
     "myDatabase": "gcp-sandbox-3-393305"
   }
 }
