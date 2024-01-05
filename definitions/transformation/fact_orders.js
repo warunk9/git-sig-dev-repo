@@ -1,13 +1,15 @@
 publish("fact_orders", {
-  type: "incremental",
-  schema: dataform.projectConfig.vars.silverSchema,
-  name: "fact_orders",
-  tags: ["orders" ,"silver"],
-  description: "Order information and details",
-  /*dependencies: ["assert_orders_rowvalidation"],*/
-  bigquery: {
-     labels: {"type":"fact"}
-  }
+    type: "incremental",
+    schema: dataform.projectConfig.vars.silverSchema,
+    name: "fact_orders",
+    tags: ["orders", "silver"],
+    description: "Order information and details",
+    /*dependencies: ["assert_orders_rowvalidation"],*/
+    bigquery: {
+        labels: {
+            "type": "fact"
+        }
+    }
 }).query(ctx => `
     SELECT 
     order_id,
