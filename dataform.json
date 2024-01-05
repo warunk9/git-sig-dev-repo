@@ -1,12 +1,12 @@
 {
-  "defaultSchema": "df_ecom_bz",
+  "defaultSchema": "ali_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "df_ecom_assert",
+  "assertionSchema": "ali_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "df_ecom_sl",
-    "bronzeSchema": "df_ecom_bz",
-    "goldSchema": "df_ecom_gd"
+    "silverSchema": "ali_df_ecom_sl",
+    "bronzeSchema": "ali_df_ecom_bz",
+    "goldSchema": "ali_df_ecom_gd"
   }
 }
