@@ -1,13 +1,13 @@
 {
-  "defaultSchema": "sneha_df_ecom_bz",
+  "defaultSchema": "sunny_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "sneha_df_ecom_assert",
+  "assertionSchema": "sunny_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "sneha_df_ecom_sl",
-    "bronzeSchema": "sneha_df_ecom_bz",
-    "goldSchema": "sneha_df_ecom_gd",
+    "silverSchema": "sunny_df_ecom_sl",
+    "bronzeSchema": "sunny_df_ecom_bz",
+    "goldSchema": "sunny_df_ecom_gd",
     "myDatabase": "gcp-sandbox-3-393305"
   }
 }
