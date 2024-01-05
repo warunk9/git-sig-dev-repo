@@ -1,12 +1,12 @@
 {
-  "defaultSchema": "poulami_df_ecom_bz",
+  "defaultSchema": "raghavendra_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "poulami_df_ecom_assert",
+  "assertionSchema": "raghavendra_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "poulami_df_ecom_sl",
-    "bronzeSchema": "poulami_df_ecom_bz",
-    "goldSchema": "poulami_df_ecom_gd"
+    "silverSchema": "raghavendra_df_ecom_sl",
+    "bronzeSchema": "raghavendra_df_ecom_bz",
+    "goldSchema": "raghavendra_df_ecom_gd"
   }
 }
