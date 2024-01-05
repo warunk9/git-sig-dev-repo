@@ -1,13 +1,13 @@
 {
-  "defaultSchema": "anas_df_ecom_bz",
+  "defaultSchema": "anish_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "anas_df_ecom_assert",
+  "assertionSchema": "anish_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "anas_df_ecom_sl",
-    "bronzeSchema": "anas_df_ecom_bz",
-    "goldSchema": "anas_df_ecom_gd",
+    "silverSchema": "anish_df_ecom_sl",
+    "bronzeSchema": "anish_df_ecom_bz",
+    "goldSchema": "anish_df_ecom_gd",
     "myDatabase": "gcp-sandbox-3-393305"
   }
 }
