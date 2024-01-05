@@ -1,13 +1,13 @@
 {
-  "defaultSchema": "vamsy_df_ecom_bz",
+  "defaultSchema": "varunika_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "vamsy_df_ecom_assert",
+  "assertionSchema": "varunika_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "vamsy_df_ecom_sl",
-    "bronzeSchema": "vamsy_df_ecom_bz",
-    "goldSchema": "vamsy_df_ecom_gd",
+    "silverSchema": "varunika_df_ecom_sl",
+    "bronzeSchema": "varunika_df_ecom_bz",
+    "goldSchema": "varunika_df_ecom_gd",
     "myDatabase": "gcp-sandbox-3-393305"
   }
 }
