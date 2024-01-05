@@ -1,12 +1,12 @@
 {
-  "defaultSchema": "jerome_df_ecom_bz",
+  "defaultSchema": "kartik_df_ecom_bz",
   "warehouse": "bigquery",
-  "assertionSchema": "jerome_df_ecom_assert",
+  "assertionSchema": "kartik_df_ecom_assert",
   "defaultDatabase": "gcp-sandbox-3-393305",
   "defaultLocation": "us-central1",
   "vars": {
-    "silverSchema": "jerome_df_ecom_sl",
-    "bronzeSchema": "jerome_df_ecom_bz",
-    "goldSchema": "jerome_df_ecom_gd"
+    "silverSchema": "kartik_df_ecom_sl",
+    "bronzeSchema": "kartik_df_ecom_bz",
+    "goldSchema": "kartik_df_ecom_gd"
   }
 }
