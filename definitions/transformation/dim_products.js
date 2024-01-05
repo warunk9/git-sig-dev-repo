@@ -1,12 +1,11 @@
-publish("dim_products",
-   {
-    type: "table",
-    database: dataform.projectConfig.vars.silverDatabase,
-    schema: dataform.projectConfig.vars.silverSchema,
-    description: "Product Details"  ,
-    
-    tags: ["products" ,"silver"],  
-    /*dependencies: ["assert_products_uniquekey","assert_products_id_nonnull_inline"]*/
+publish("dim_products", {
+        type: "table",
+        database: dataform.projectConfig.vars.silverDatabase,
+        schema: dataform.projectConfig.vars.silverSchema,
+        description: "Product Details",
+
+        tags: ["products", "silver"],
+        /*dependencies: ["assert_products_uniquekey","assert_products_id_nonnull_inline"]*/
     })
     .query(ctx => `SELECT 
     id,
@@ -23,7 +22,7 @@ publish("dim_products",
 
 
 assert("assert_products_id_nonnull_inline")
-.query(ctx => `SELECT id FROM  ${ctx.ref("stg_products")} WHERE id IS NULL`);
+    .query(ctx => `SELECT id FROM  ${ctx.ref("stg_products")} WHERE id IS NULL`);
 
 
 
@@ -39,8 +38,3 @@ SELECT
     nullif(trim(sku),'') as sku ,
     distribution_center_id
 */
-
-
-
-
-
